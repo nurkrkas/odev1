@@ -1,0 +1,29 @@
+*
+{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.kutu
+{
+    width: 250px;
+    height: 400px;
+}
+body
+{
+    height: 100vh;
+    display: flex;
+}
+.kutu
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: auto;
+    min-height: 400px;
+    max-height: 600px;
+    overflow: hidden;
+    border: thin  solid black;
+    border-radius: 50px 30px 10px 150px;
+    
+}
